@@ -1,7 +1,7 @@
 <!--Contacto-->
 
-<section data-aos-offset="500"id="contacto">
-    <h1 data-aos="slide-down"class="display-4 p-5 text-center mb-4 text-uppercase font-weight-bold text-dark ">Contacto</h1>
+<section class="parallax" data-aos-offset="500"id="contacto">
+    <h1 data-aos="slide-down"class="display-4 p-5 text-center mb-4 text-uppercase font-weight-bold text-white ">Contacto</h1>
     <div class="formulario-contacto col-12">
       <div class="container">
         <div class="row">
@@ -10,7 +10,7 @@
           </div>
           <div  class="col-lg-6 col-md-12">
             <div class="contenido-formulario ">
-              <form class="contact" name="contacto" data-netlify="true" method="POST">
+              <form action="https://formspree.io/f/mwkalpke" class="contact" name="contacto" data-netlify="true" method="POST" id="my-form">
               <div class="container d-flex flex-column">
                  <div class="d-flex">
                   <lottie-player class="col-4 col-sm-2 col-md-2 col-lg-3 " src="https://assets8.lottiefiles.com/packages/lf20_G9sNM6.json" background="transparent" speed="1" style="width: 50px; height: 50px;" hover loop></lottie-player>
@@ -26,8 +26,11 @@
                   </div>
                   </div>
                 </div>
+            
                 <input data-aos="slide-up"  type="submit" name="submit" class="send-btn" value="Enviar">
+              <p id="status"></p>
               </form>
+              
             </div>
           </div>
         </div>
